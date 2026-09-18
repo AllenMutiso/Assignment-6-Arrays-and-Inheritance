@@ -29,7 +29,7 @@ public class NumberUtils {
     }
 
     /*
-    Given two numbers, count the quantity of matching digits – those with the same value and 
+    Given two numbers, count the quantity of matching digits - those with the same value and 
     position. For example, given 39628 and 79324, there are 2 digits in common: x9xx2x. 
     It is assumed that the numbers are the same length and have no repeating digits. 
     */
@@ -85,13 +85,4 @@ public class NumberUtils {
         }
         return count;
     }
-
-    /* 
-    public static void main (String[] args) {
-        int[] testArray = NumberUtils.toArray(4567); //return {4, 5, 6, 7}
-        int match = NumberUtils.countMatches(4567, 4712); // return 1
-        int intersect = NumberUtils.countIntersect(3467, 1234); // return 2
-        System.out.println(intersect);
-    } 
-    */
 }

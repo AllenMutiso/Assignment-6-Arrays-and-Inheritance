@@ -47,6 +47,7 @@ public class CowsAndBulls {
     End the game, returning the secretNumber
     */
     public int giveUp() {
+        correctyGuessed = true;
         return secretNumber;
     }
 
